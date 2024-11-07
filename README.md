@@ -70,6 +70,7 @@ We want to incorporate procedural asset creation into environment creation, comb
 
 
 #### Design:
+![](./Design.jpg)
 
 #### Timeline:
 | Time                          | Annie Qiu                                                                                      | Catherine Cheng                                                                              | Yifan Lu                                                                                                   | Crystal Zou                                                   |
