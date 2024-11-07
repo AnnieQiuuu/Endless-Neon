@@ -5,30 +5,80 @@ This is it! The culmination of your procedural graphics experience this semester
 ## Project planning: Design Doc (due 11/6)
 Before submitting your first milestone, _you must get your project idea and scope approved by Rachel, Adam or a TA._
 
+[Google Doc Link](https://docs.google.com/document/d/169RYszQZ5gILNnsS2ZpIwD5Kloa3naZebUqEEF6zlcY/edit?tab=t.0#heading=h.kq99tkua9efe)
+
 ### Design Doc
 Start off by forking this repository. In your README, write a design doc to outline your project goals and implementation plan. It must include the following sections:
 
 #### Introduction
-- What motivates your project?
+Our project is motivated by a desire to blend Eastern traditional art with the futuristic aesthetics of cyberpunk, inspired by **Ghost in the Shell** and **Blade Runner 2049** which provide impressive visual effects and stunning cyberpunk scenes. The cyberpunk style is captivating, by combining it with Eastern aesthetics which can create a unique vision of ancient and futuristic elements.
 
 #### Goal
-- What do you intend to achieve with this project?
+We want to incorporate procedural asset creation into environment creation, combine it with textures, and eventually create an astonishing scene.
 
 #### Inspiration/reference:
-- You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
-- Include in your design doc links to and images of your reference material.
+- Link: (https://www.artstation.com/artwork/dyyoeJ) (MAIN REFERENCE)
+![](https://cdna.artstation.com/p/assets/images/images/080/781/078/4k/li-moly-691.jpg?1728492082)
+
+- Link: (https://www.artstation.com/artwork/29kdgB)
+![](https://cdna.artstation.com/p/assets/images/images/062/196/048/4k/julian-calle-002.jpg?1682565090)
+
+- Link: (https://www.artstation.com/artwork/Yeg6aY)
+![](https://cdnb.artstation.com/p/assets/images/images/031/994/447/large/laury-guintrand-noctem-final-shot1-hd1.jpg?1605177028)
+
+- Link: (https://www.theverge.com/2017/4/1/15142948/ghost-in-the-shell-1995-original-setting-most-interesting-part)
+![](https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1040/750x406/filters:focal(960x520:961x521):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/8261407/Ghost_Shell_1995_Screenshot_0399.jpg)
+
+- Link: (https://aiinscreentrade.com/2024/05/29/the-importance-of-theme-exploring-existentialism-in-blade-runner-2049/)
+![](https://aiinscreentrade.com/wp-content/uploads/2024/05/kd7329555_a_dystopian_cityscape_at_dusk_with_towering_skyscrape_121280c6-d8b8-4485-8e3e-e8b7d5df30e8.png?w=1024)
+
+- Link: (https://www.artstation.com/artwork/G89oz)
+![](https://cdna.artstation.com/p/assets/images/images/000/544/340/large/sergey-zabelin-hong-kong-street-patrol-1920.jpg?1443928378)
 
 #### Specification:
-- Outline the main features of your project.
+- Traditional Building Generator
+  - Link: (https://www.artstation.com/artwork/6Nm4z0)
+![](https://cdna.artstation.com/p/assets/images/images/076/006/196/large/lumiere-mah-kor1988-1.jpg?1715928564)
+  - Link: (https://www.artstation.com/artwork/rR6R9E)
+![](https://www.artstation.com/artwork/rR6R9E)
 
+- Factory Building Generator
+  - Link: (https://www.artstation.com/artwork/Ry0ZdA)
+![](https://cdna.artstation.com/p/assets/images/images/070/104/402/4k/fabio-montorzi-abandoned-viewa-ue.jpg?1701775131)
+
+  - Link: (https://www.artstation.com/artwork/zA318D)
+![](https://cdna.artstation.com/p/assets/images/images/023/892/436/4k/evgeny-lukashkov-factory-texturing-2.jpg?1580681926)
+
+- Material fir procedural buildings(Tileable textures)
+- City Layout
+- Lighting(Light Billboard)
+  
 #### Techniques:
-- What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
+- Lights Generation Problem
+  - Asset Generation and Placement in Houdini (Separate assets from main buildings in order to assign light textures in UE5)
+  - Emissive Surfaces Assignment in UE5
+- Houdini Procedural Building Generator
+  - Traditional building: Will use technique from HW3 to create multiple-level eastern style buildings. We could make a series of different windows, doors, and billboards and assemble them into buildings. Between different levels, we could add an eastern style roof with adjustable height and size. On the top of the building, we could also add a procedural top roof.
+  - Factory Building:  Will use technique from HW3 to create multiple-level factory-style buildings. We could make a series of wires, windows, doors， and cables, and assemble them into buildings. Between different levels, we could add some stairs among each level and smokestacks on the top of the building.
+- City Generation
+  - PDG: We will use a Procedural Dependency Graph in Houdini to automate and manage complex tasks in our procedural city generation pipeline. PDG allows us to efficiently handle dependencies across asset instancing, and layout generation to make large-scale cityscapes.
+  - https://youtube.com/playlist?list=PLXNFA1EysfYnWlvVy1ZzpzZd6Reyxmwxj&si=ADTaVLZNjySiRL2V
+- Tileable Textures:
+  - Assign simple materials to classify the material in Houdini
+  - Using Substance Designer to create tileable textures
+  - Attach those materials in Unreal Engine 5
+
 
 #### Design:
-- How will your program fit together? Make a simple free-body diagram illustrating the pieces.
 
 #### Timeline:
-- Create a week-by-week set of milestones for each person in your group. Make sure you explicitly outline what each group member's duties will be.
+| Time                          | Annie Qiu                                                                                      | Catherine Cheng                                                                              | Yifan Lu                                                                                                   | Crystal Zou                                                   |
+|-------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| **Week 1: 2024/11/6 - 2024/11/13** | Factory building (FB) generator & basic light billboard setup (build upon my previous work) | Traditional building (TB) generator & basic light billboard setup                            | Create tileable texture and material with Substance Designer (Concrete/Metal Wall FB, Brick/Wood Wall TB, Roof TB, Road and pedestrian walk, Rolling door) | PDG: City Layout & Procedural city generation pipeline |
+| **Week 2: 2024/11/14 - 2024/11/20** | Refine factory generator & Billboard generator                                             | Refine building models & integrate with the pipeline                                         | Integrate materials with procedural models & integrate with the pipeline                                  | Integration with two building generators & Materials |
+| **Week 3: 2024/11/21 - 2024/11/25** | Accessory modeling & texturing: Bridge; stairs; traffic light; VFX Snow (Niagara System) | Accessory modeling & texturing: Tree, Street lamp, Trash can, Utility pole                   | Accessory modeling & texturing: vendor machine, blockers                                                  | PDG: Add-on accessory assigning in UE5 (create more light textures); VFX Fog (Niagara System) |
+| **Week 4: 2024/11/26 - 2024/12/2**  | Layout and lighting                                                                       | Layout and lighting                                                                         | Layout and lighting                                                                                        | Finalize the project                                           |
+
 
 Submit your Design doc as usual via pull request against this repository.
 ## Milestone 1: Implementation part 1 (due 11/13)
