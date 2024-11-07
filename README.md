@@ -1,14 +1,12 @@
 # Final Project!
 
-This is it! The culmination of your procedural graphics experience this semester. For your final project, we'd like to give you the time and space to explore a topic of your choosing. You may choose any topic you please, so long as you vet the topic and scope with an instructor or TA. We've provided some suggestions below. The scope of your project should be roughly 1.5 homework assignments). To help structure your time, we're breaking down the project into 4 milestones:
+Team members: Annie Qiu, Catherine Cheng, Yifan Lu, Crystal Zou
 
 ## Project planning: Design Doc (due 11/6)
 Before submitting your first milestone, _you must get your project idea and scope approved by Rachel, Adam or a TA._
 
-[Google Doc Link](https://docs.google.com/document/d/169RYszQZ5gILNnsS2ZpIwD5Kloa3naZebUqEEF6zlcY/edit?tab=t.0#heading=h.kq99tkua9efe)
-
 ### Design Doc
-Start off by forking this repository. In your README, write a design doc to outline your project goals and implementation plan. It must include the following sections:
+[Google Doc Link](https://docs.google.com/document/d/169RYszQZ5gILNnsS2ZpIwD5Kloa3naZebUqEEF6zlcY/edit?tab=t.0#heading=h.kq99tkua9efe)
 
 #### Introduction
 Our project is motivated by a desire to blend Eastern traditional art with the futuristic aesthetics of cyberpunk, inspired by **Ghost in the Shell** and **Blade Runner 2049** which provide impressive visual effects and stunning cyberpunk scenes. The cyberpunk style is captivating, by combining it with Eastern aesthetics which can create a unique vision of ancient and futuristic elements.
@@ -17,37 +15,28 @@ Our project is motivated by a desire to blend Eastern traditional art with the f
 We want to incorporate procedural asset creation into environment creation, combine it with textures, and eventually create an astonishing scene.
 
 #### Inspiration/reference:
-- Link: (https://www.artstation.com/artwork/dyyoeJ) (MAIN REFERENCE)
-![](https://cdna.artstation.com/p/assets/images/images/080/781/078/4k/li-moly-691.jpg?1728492082)
-
-- Link: (https://www.artstation.com/artwork/29kdgB)
-![](https://cdna.artstation.com/p/assets/images/images/062/196/048/4k/julian-calle-002.jpg?1682565090)
-
-- Link: (https://www.artstation.com/artwork/Yeg6aY)
-![](https://cdnb.artstation.com/p/assets/images/images/031/994/447/large/laury-guintrand-noctem-final-shot1-hd1.jpg?1605177028)
-
-- Link: (https://www.theverge.com/2017/4/1/15142948/ghost-in-the-shell-1995-original-setting-most-interesting-part)
-![](https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1040/750x406/filters:focal(960x520:961x521):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/8261407/Ghost_Shell_1995_Screenshot_0399.jpg)
-
-- Link: (https://aiinscreentrade.com/2024/05/29/the-importance-of-theme-exploring-existentialism-in-blade-runner-2049/)
-![](https://aiinscreentrade.com/wp-content/uploads/2024/05/kd7329555_a_dystopian_cityscape_at_dusk_with_towering_skyscrape_121280c6-d8b8-4485-8e3e-e8b7d5df30e8.png?w=1024)
-
-- Link: (https://www.artstation.com/artwork/G89oz)
-![](https://cdna.artstation.com/p/assets/images/images/000/544/340/large/sergey-zabelin-hong-kong-street-patrol-1920.jpg?1443928378)
+| Reference | Image |
+|-----------|-------|
+| [Main Reference](https://www.artstation.com/artwork/dyyoeJ) | ![Image](https://cdna.artstation.com/p/assets/images/images/080/781/078/4k/li-moly-691.jpg?1728492082) |
+| [Reference1](https://www.artstation.com/artwork/29kdgB) | ![Image](https://cdna.artstation.com/p/assets/images/images/062/196/048/4k/julian-calle-002.jpg?1682565090) |
+| [Reference2](https://www.artstation.com/artwork/Yeg6aY) | ![Image](https://cdnb.artstation.com/p/assets/images/images/031/994/447/large/laury-guintrand-noctem-final-shot1-hd1.jpg?1605177028) |
+| [Reference3](https://www.theverge.com/2017/4/1/15142948/ghost-in-the-shell-1995-original-setting-most-interesting-part) | ![Image](https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1040/750x406/filters:focal(960x520:961x521):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/8261407/Ghost_Shell_1995_Screenshot_0399.jpg) |
+| [Reference4](https://aiinscreentrade.com/2024/05/29/the-importance-of-theme-exploring-existentialism-in-blade-runner-2049/) | ![Image](https://aiinscreentrade.com/wp-content/uploads/2024/05/kd7329555_a_dystopian_cityscape_at_dusk_with_towering_skyscrape_121280c6-d8b8-4485-8e3e-e8b7d5df30e8.png?w=1024) |
+| [Reference5](https://www.artstation.com/artwork/G89oz) | ![Image](https://cdna.artstation.com/p/assets/images/images/000/544/340/large/sergey-zabelin-hong-kong-street-patrol-1920.jpg?1443928378) |
 
 #### Specification:
 - Traditional Building Generator
-  - Link: (https://www.artstation.com/artwork/6Nm4z0)
-![](https://cdna.artstation.com/p/assets/images/images/076/006/196/large/lumiere-mah-kor1988-1.jpg?1715928564)
-  - Link: (https://www.artstation.com/artwork/rR6R9E)
-![](https://www.artstation.com/artwork/rR6R9E)
+
+| Reference  |
+|---------|
+| [![Image 3](https://cdna.artstation.com/p/assets/images/images/076/006/196/large/lumiere-mah-kor1988-1.jpg?1715928564)](https://www.artstation.com/artwork/6Nm4z0) |
+
 
 - Factory Building Generator
-  - Link: (https://www.artstation.com/artwork/Ry0ZdA)
-![](https://cdna.artstation.com/p/assets/images/images/070/104/402/4k/fabio-montorzi-abandoned-viewa-ue.jpg?1701775131)
 
-  - Link: (https://www.artstation.com/artwork/zA318D)
-![](https://cdna.artstation.com/p/assets/images/images/023/892/436/4k/evgeny-lukashkov-factory-texturing-2.jpg?1580681926)
+| Reference 1 | Reference 2 |
+|---------|---------|
+| [![Image 1](https://cdna.artstation.com/p/assets/images/images/070/104/402/4k/fabio-montorzi-abandoned-viewa-ue.jpg?1701775131)](https://www.artstation.com/artwork/Ry0ZdA) | [![Image 2](https://cdna.artstation.com/p/assets/images/images/023/892/436/4k/evgeny-lukashkov-factory-texturing-2.jpg?1580681926)](https://www.artstation.com/artwork/zA318D) |
 
 - Material fir procedural buildings(Tileable textures)
 - City Layout
@@ -81,7 +70,6 @@ We want to incorporate procedural asset creation into environment creation, comb
 | **Week 4: 2024/11/26 - 2024/12/2**  | Layout and lighting                                                                       | Layout and lighting                                                                         | Layout and lighting                                                                                        | Finalize the project                                           |
 
 
-Submit your Design doc as usual via pull request against this repository.
 ## Milestone 1: Implementation part 1 (due 11/13)
 Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
 
