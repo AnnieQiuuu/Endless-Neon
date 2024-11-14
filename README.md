@@ -118,6 +118,20 @@ For the concrete texture I add more types of cracks, divos and stains to adapt t
 The node network for Concrete texture:
 ![](./img/concrete.png)
 
+### Catherine Cheng
+Traditional building generator with billboard and bridges connecting different buildings:
+![](img/Traditional_Building.png)
+![](img/bridge.png)
+
+Built up the pipeline to texture procedural meshes using Substance Designer & Painter:
+![](img/Textured_bridge.png)
+
+Built up the pipeline for importing .hda meshes in UE5
+| UE5 World View with Texture | HDA Panel |
+|---------|---------|
+| ![](./img/UE5%20World%20View.png)| ![](./img/HDA%20Panel.png)| 
+
+
 ## Milestone 2: Implementation part 2 (due 11/25)
 We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
 
