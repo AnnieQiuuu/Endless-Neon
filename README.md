@@ -86,18 +86,18 @@ For Milestone 1, my goal was to implement a Factory Building (FB) generator alon
 To achieve factory buildings generation, I created two main generators:
 
 - Building Generator: This generator uses adjustable parameters for floors, x, y, and z dimensions to define the basic structure of the factory. The generator includes essential elements like fences, chimneys, and an elevated middle section for a more industrial feel.
-![](./factory.gif)
+![](./img/factory.gif)
 
 - Escape Ladder Generator: With similar adjustable parameters, this generator creates escape ladders that can integrate with the factory building, adding both functionality and visual appeal.
-![](./stairs.gif)
+![](./img/stairs.gif)
 
 In addition to the main building, I developed smaller asset generators:
 
 - Roadblock Generator: This asset allows customization of the number of triangular shapes.
-![](./roadblock.gif)
+![](./img/roadblock.gif)
 
 - Chimney Generator: Here, I added an iteration parameter to create distinct, customizable chimney shapes.
-![](./chimney.gif)
+![](./img/chimney.gif)
 
 ## Milestone 2: Implementation part 2 (due 11/25)
 We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
