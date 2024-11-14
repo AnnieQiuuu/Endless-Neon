@@ -99,6 +99,25 @@ In addition to the main building, I developed smaller asset generators:
 - Chimney Generator: Here, I added an iteration parameter to create distinct, customizable chimney shapes.
 ![](./img/chimney.gif)
 
+### Yifan lu
+
+My job for Milestone1 is to create some procedural textures for both traditional building and the factory building. The textures are created with Substance Designer to give them procedural parameters. Since the most visually-impact part of the TB is the roof, I created a 2K texture with the following parameters:
+
+| Stain Scale | Tile Hue Color | Hole Size
+|---------|---------|---------|
+| ![roof1](./img/roof_1.gif)| ![roof1](./img/roof_2.gif)| ![roof1](./img/roof_3.gif)|
+
+The node network for Tile texture:
+![](./img/roof_tile.png)
+
+For the concrete texture I add more types of cracks, divos and stains to adapt to the broken vibe of our concept art.
+| Large Divots | Cracks | Grunge | Albedo
+|---------|---------|---------|---------|
+| ![roof1](./img/concrete_1.gif)| ![roof1](./img/concrete_2.gif)| ![roof1](./img/concrete_3.gif)| ![roof1](./img/concrete_4.gif)|
+
+The node network for Concrete texture:
+![](./img/concrete.png)
+
 ## Milestone 2: Implementation part 2 (due 11/25)
 We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
 
