@@ -1,6 +1,6 @@
 # Final Project!
 
-Team members: Annie Qiu, Catherine Cheng, Yifan Lu, Crystal Zou
+Team members: Annie Qiu, Catherine Cheng, Yifan Lu
 
 ## Project planning: Design Doc (due 11/6)
 Before submitting your first milestone, _you must get your project idea and scope approved by Rachel, Adam or a TA._
@@ -62,12 +62,12 @@ We want to incorporate procedural asset creation into environment creation, comb
 ![](./Design.jpg)
 
 #### Timeline:
-| Time                          | Annie Qiu                                                                                      | Catherine Cheng                                                                              | Yifan Lu                                                                                                   | Crystal Zou                                                   |
-|-------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| **Week 1: 2024/11/6 - 2024/11/13** | Factory building (FB) generator & basic light billboard setup (build upon my previous work) | Traditional building (TB) generator & basic light billboard setup                            | Create tileable texture and material with Substance Designer (Concrete/Metal Wall FB, Brick/Wood Wall TB, Roof TB, Road and pedestrian walk, Rolling door) | PDG: City Layout & Procedural city generation pipeline |
-| **Week 2: 2024/11/14 - 2024/11/20** | Refine factory generator & Billboard generator                                             | Refine building models & integrate with the pipeline                                         | Integrate materials with procedural models & integrate with the pipeline                                  | Integration with two building generators & Materials |
-| **Week 3: 2024/11/21 - 2024/11/25** | Accessory modeling & texturing: Bridge; stairs; traffic light; VFX Snow (Niagara System) | Accessory modeling & texturing: Tree, Street lamp, Trash can, Utility pole                   | Accessory modeling & texturing: vendor machine, blockers                                                  | PDG: Add-on accessory assigning in UE5 (create more light textures); VFX Fog (Niagara System) |
-| **Week 4: 2024/11/26 - 2024/12/2**  | Layout and lighting                                                                       | Layout and lighting                                                                         | Layout and lighting                                                                                        | Finalize the project                                           |
+| Time                          | Annie Qiu                                                                                      | Catherine Cheng                                                                              | Yifan Lu                                                                                                   |
+|-------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| **Week 1: 2024/11/6 - 2024/11/13** | Factory building (FB) generator & basic light billboar setup | Traditional building (TB) generator & basic light billboard setup                            | Create tileable texture and material with substance designer. (Concrete/Metal Wall FB, Brick/Wood Wall TB, Roof TB, Road and pedestrian walk, Rolling door)PDG: City Layout & Procedural city generation pipeline |
+| **Week 2: 2024/11/14 - 2024/11/20** | Refine factory generator & Billboard generator& Integration with PDG                                             | Refine building models & integrate with the pipeline & integrate with material                                         | PDG: City Layout & Procedural city generation pipeline                                  |
+| **Week 3: 2024/11/21 - 2024/11/25** | Accessory modeling: Bridge; stairs; VFX Snow (Niagara System) | Accessory modeling & texturing Tree Street lamp Trash can Utility pole                   | Accessory modeling & texturing: vender machine, blockers                                                  |
+| **Week 4: 2024/11/26 - 2024/12/2**  | Layout and lighting                                                                       | Layout and lighting                                                                         | Layout and lighting                                                                                        |
 
 
 ## Milestone 1: Implementation part 1 (due 11/13)
