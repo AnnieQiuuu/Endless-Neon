@@ -79,6 +79,26 @@ Submission: Add a new section to your README titled: Milestone #1, which should 
 - written description of progress on your project goals. If you haven't hit all your goals, what's giving you trouble?
 - Examples of your generators output so far
 We'll check your repository for updates. No need to create a new pull request.
+
+### Annie Qiu
+For Milestone 1, my goal was to implement a Factory Building (FB) generator along with a basic light billboard setup in Houdini. Sharing similar tasks of creating light billboar with other member, I instead chosed to focus more on creating additional asset generators(stairs, roadblock and chimney) to enhance the overall factory atmosphere. This milestone centered on building the foundational structure of the FB generator from scratch.
+
+To achieve factory buildings generation, I created two main generators:
+
+- Building Generator: This generator uses adjustable parameters for floors, x, y, and z dimensions to define the basic structure of the factory. The generator includes essential elements like fences, chimneys, and an elevated middle section for a more industrial feel.
+![](./factory.gif)
+
+- Escape Ladder Generator: With similar adjustable parameters, this generator creates escape ladders that can integrate with the factory building, adding both functionality and visual appeal.
+![](./stairs.gif)
+
+In addition to the main building, I developed smaller asset generators:
+
+- Roadblock Generator: This asset allows customization of the number of triangular shapes.
+![](./roadblock.gif)
+
+- Chimney Generator: Here, I added an iteration parameter to create distinct, customizable chimney shapes.
+![](./chimney.gif)
+
 ## Milestone 2: Implementation part 2 (due 11/25)
 We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
 
