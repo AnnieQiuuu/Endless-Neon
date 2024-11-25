@@ -148,7 +148,10 @@ Come to class on the due date with a WORKING COPY of your project. We'll be spen
 
 https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 
-
+### MS2 Features:
+- PDG network to layout 3 types of buildings based on a street map
+- Pipeline for PDG from Houdini to UE5, including building shapes and materials
+- Pipeline to generate texture from SD to SP and UE5 with a custom template to compress AO, Roughness and Metallic into one texture.
 
 
 
