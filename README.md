@@ -155,6 +155,14 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 
 
 
+### MS3 Goals:
+- Billboard texture
+- PDG
+  - layout
+  - building type depend on the grid size
+- Character
+- Small models
+
 
 ## Final submission (due 12/2)
 Time to polish! Spen this last week of your project using your generator to produce beautiful output. Add textures, tune parameters, play with colors, play with camera animation. Take the feedback from class critques and use it to take your project to the next level.
