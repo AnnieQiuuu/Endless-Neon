@@ -150,8 +150,20 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 
 ### MS2 Features:
 - PDG network to layout 3 types of buildings based on a street map
+
+  | Stages | Image |
+  |---------|---------|
+  | Grid Texture | <img src="./img/citygrid.jpg" alt="Traditional" width="600"/>)|
+  | Grid in Houdini| <img src="./img/pdg1.png" alt="Traditional" width="600"/>|
+  | Layout in Houdini| <img src="./img/pdg2.png" alt="Traditional" width="600"/>)|
+  | Layout in Unreal| <img src="./img/pdg3.png" alt="Traditional" width="600"/>)|
+
 - Pipeline for PDG from Houdini to UE5, including building shapes and materials
-![](img/566_procedural_building.gif)
+
+| Traditional | Factory |
+|-------------|---------|
+| <img src="img/566_procedural_building.gif" alt="Traditional" width="600"/> | <img src="./img/factoryTex.gif" alt="Factory" width="600"/> |
+
   - For materials in UE5, we have written a template for further adjusting tiling, base color tone, hue, saturation, and brightness.
 
   | Material Template | Matierials |
