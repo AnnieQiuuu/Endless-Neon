@@ -162,6 +162,12 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 
 
 
+| Custom Texture Template in Substance Designer | Procedural Texture in UE imported from SD |
+|---------|---------|
+| ![image](https://github.com/user-attachments/assets/202a2a4e-df8f-4455-abd8-34b1ec02950e)| ![sd](./img/sbsar.gif)|
+
+
+
 ### MS3 Goals:
 - Billboard texture
 - PDG
