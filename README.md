@@ -178,6 +178,13 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 
 
 ## Final submission (due 12/2)
+
+
+https://github.com/user-attachments/assets/432d2d4b-9023-492f-a6e3-598c762bcb86
+
+
+
+
 Time to polish! Spen this last week of your project using your generator to produce beautiful output. Add textures, tune parameters, play with colors, play with camera animation. Take the feedback from class critques and use it to take your project to the next level.
 
 Submission:
