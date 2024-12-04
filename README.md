@@ -1,6 +1,7 @@
 # Endless-Neon
 Team members: Annie Qiu, Catherine Cheng, Yifan Lu
 
+https://github.com/user-attachments/assets/432d2d4b-9023-492f-a6e3-598c762bcb86
 ## Project planning: Design Doc (due 11/6)
 Before submitting your first milestone, _you must get your project idea and scope approved by Rachel, Adam or a TA._
 
@@ -186,9 +187,16 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 
 
 ## Final submission (due 12/2)
-
-
+### Demo
 https://github.com/user-attachments/assets/432d2d4b-9023-492f-a6e3-598c762bcb86
+
+### Additional Files & Links
+- [Final Presentation](https://docs.google.com/presentation/d/1jeFGGCCdqDhWxhAOTJhKo2Oq-B2M4nfr5AgihyTePXE/edit?usp=sharing)
+- [Project Files](https://drive.google.com/drive/folders/1kXNSFJX0UGbhs7BPxi6SzsWDPM9Vs_IN?usp=sharing)
+
+### Post Mortem
+Overall, our project went very well, and we are satisfied with the results. The final outcome met our expectations, and the visual quality of the procedural city exceeded our goals. We successfully accomplished our objectives of blending cyberpunk aesthetics with traditional Eastern architecture to create a procedural city.
+
 
 
 
