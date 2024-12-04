@@ -183,7 +183,9 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 | Middle Block| ![middle](https://github.com/user-attachments/assets/29c35d5c-2548-4356-bb8c-22dfd8076f0f)|
 | Large Block| ![large](https://github.com/user-attachments/assets/6803de78-0bab-469e-a641-27ed00b364f5)|
 
-- Small models
+- Integration
+
+![image](https://github.com/user-attachments/assets/4c8dda72-e86f-4326-bb7e-d429e9416f37)
 
 
 ## Final submission (due 12/2)
