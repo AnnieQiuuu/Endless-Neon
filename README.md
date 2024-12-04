@@ -1,5 +1,4 @@
-# Final Project!
-
+# Endless-Neon
 Team members: Annie Qiu, Catherine Cheng, Yifan Lu
 
 ## Project planning: Design Doc (due 11/6)
