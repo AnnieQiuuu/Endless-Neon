@@ -171,9 +171,18 @@ https://github.com/user-attachments/assets/79ed4a32-bc27-4735-a8d5-102933c65c61
 ### MS3 Goals:
 - Billboard texture
 - PDG
-  - layout
+  - Rearrange the layout to create center of city by placing higher buildings
+
+![屏幕截图 2024-12-04 005052](https://github.com/user-attachments/assets/3007c633-aaff-404e-8272-f16fc67fec9a)
+
   - building type depend on the grid size
-- Character
+
+| Stages | Image |
+|---------|---------|
+| Small Block | ![small](https://github.com/user-attachments/assets/d7af0e87-3c98-4fe4-b230-85d373f14a92)|
+| Middle Block| ![middle](https://github.com/user-attachments/assets/29c35d5c-2548-4356-bb8c-22dfd8076f0f)|
+| Large Block| ![large](https://github.com/user-attachments/assets/6803de78-0bab-469e-a641-27ed00b364f5)|
+
 - Small models
 
 
